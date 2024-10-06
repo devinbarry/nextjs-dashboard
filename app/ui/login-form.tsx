@@ -37,6 +37,7 @@ export default function LoginForm() {
                 type="email"
                 name="email"
                 placeholder="Enter your email address"
+                autoComplete="off"
                 required
               />
               <AtSymbolIcon
@@ -57,6 +58,7 @@ export default function LoginForm() {
                 type="password"
                 name="password"
                 placeholder="Enter password"
+                autoComplete="off"
                 required
                 minLength={6}
               />
